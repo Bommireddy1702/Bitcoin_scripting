@@ -17,7 +17,7 @@ bitcoin-cli -regtest getblockchaininfo
 
 3. Create a SegWit Wallet
 
-bitcoin-cli -regtest createwallet "segwit_wallet_7"
+bitcoin-cli -regtest createwallet "segwit_wallet7"
 
 4. Retrieve Wallet Information
 
@@ -61,3 +61,7 @@ bitcoin-cli -regtest getrawtransaction "<Transaction_ID>"
 Decode the raw transaction:
 
 bitcoin-cli -regtest decoderawtransaction "<Raw_Transaction_Hex>"
+
+10. Repeat the Process for Legacy Transactions
+
+Follow similar steps to create and analyze transactions using a Legacy wallet.
